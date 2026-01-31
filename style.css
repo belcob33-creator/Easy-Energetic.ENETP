@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background: url(Back1.jpg);
+  background-size:  cover;
+  background-attachment: fixed;
+  background-position: cover; opacity: 20px;
+  height:100vh;
+width: 100%;
+}
+
+  .navbar{ height:40px;
+  width: 100%;
+  background: transparent;
+  }
+.navbar ul{  float: inline-end;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: list-item; color: burlywood;
+  }
+  .navbar ul li{ list-style: square;
+  display: contents;
+  display: list-item;
+  line-height: 70px;
+  }
+  .navbar ul li a{ text-decoration: none;
+  color:white;
+  animation: 5s;
+  border-start-end-radius: 4px;
+  font-size: 20px;
+  font-family: Algerian;
+  padding: 6px 13px;
+  transition: 10s;
+  transition-duration: 10s;
+  }
+  .navbar ul li a.active,
+  .navbar ul li a:hover{ background: white;
+    transition: 5s;
+    border-radius: 10px;
+    print-color-adjust: economy;
+    color: brown;
+    forced-color-adjust: preserve-parent-color;
+  }
+  h5{ position: fixed;
+top: 3%;
+color: black;
+text-align: start;
+color-scheme: inherit;
+  }
+    h5 button{ font-size: 20px;
+    background: rgba(210, 105, 30, 0);
+      size: 2px;
+    color: rgba(245, 245, 220, 0.582);
+    color-scheme: inherit;
+    print-color-adjust: exact;
+    flood-color: brown;
+    border-radius:2px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    box-sizing: 2px;
+    width: 400px;
+    display: inline-block;
+    text-align:center;
+    top: auto;
+    margin: 0;
+    padding-left: 2px;
+    font-style:italic;
+  }
+ h4{ font-size: 30px;
+color: burlywood;
+text-align: center;
+ }
+#cours-section{ background-image: url(Cover.jpg);
+  width:100%; height: 200vh; opacity: 10px;
+  background-repeat: repeat;
+}
+#cours-section li{ font-size: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+#cours-section li a{ text-decoration: none;
+  text-align: center;
+  display: -webkit-inline-box;
+  position: sticky;
+  place-self: center;
+  color: white; border-radius: 10px;
+  background: rgba(0, 0, 0, 0.911);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  }
+
+  #content{ background-image: url(back2.jpg);
+  width:100%; height:100vh; opacity: 10px;
+  size:80px; 
+  background-size: auto;
+  text-align: center;
+}
+  #content div li{
+    background: rgb(182, 158, 141);
+    border-radius:10px;
+    width:20px;
+    height: 20px;
+    size: 60px;
+  }
+  #content div li a{
+color: rgb(102, 52, 52);
+background-color: rgb(209, 174, 149);
+display: flexbox;
+background: rgb(209, 174, 149);
+animation: backwards;
+text-align: center;
+float: inherit;
+position: fixed;
+alignment-baseline: central;
+size: 20px;
+  }
+  #content h3{     color: beige;
+    background-color: rgb(46, 32, 32);
+    float: inline-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+    #L3-section{ background-image: url(back2.jpg);
+  width:100%; height:100vh; opacity: 10px;
+  size:80px; 
+  background-size: auto;
+  text-align: center;
+}
+
+   #L3-section div li{
+    background: rgb(182, 158, 141);
+    border-radius:10px;
+    width:20px;
+    height: 20px;
+    size:60px;
+  }
+  #L3-section div{ size: 40px;}
+  #L3-section div li a{
+color: black;
+background-color: rgb(209, 174, 149);
+display:inline-flex;
+background: rgb(209, 174, 149);
+text-align: center;
+float: none;
+position:absolute;
+alignment-baseline: central;
+size:40px;
+  }
+  #L3-section h3{ text-align: right;
+    color: beige;
+    background-color: rgb(46, 32, 32);
+    float: inline-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  
+  #main{ background-image: url(back2.jpg);
+  width:100%; height:100vh; opacity: 10px;
+  size:80px; 
+  background-size: auto;
+  text-align: center;
+}
+  #main div li{
+    background: rgb(182, 158, 141);
+    border-radius:10px;
+    width:20px;
+    height: 20px;
+    size: 60px;
+  }
+  #main div li a{
+color: rgb(102, 52, 52);
+background-color: rgb(209, 174, 149);
+display: flexbox;
+background: rgb(209, 174, 149);
+animation: backwards;
+text-align: center;
+float: inherit;
+position: fixed;
+alignment-baseline: central;
+size: 20px;
+  }
+  #main h3{     color: beige;
+    background-color: rgb(46, 32, 32);
+    float: inline-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+#Pro{ background-image: url(jei-lee-OhWlmCiPhP4-unsplash\ \(1\).jpg);
+  width:100%; height: 200vh; opacity: 10px;
+}
+#Pro h1{color: black;
+text-align: center;
+display: block;
+position: static;
+}
+#Li{background-image: url(mykola-kolya-korzh-aqdDN9RndRo-unsplash.jpg);
+  width:100%; height: 100vh; opacity: 10px;
+
+}
+#Li h1{ color: black;
+text-align: center;
+display: block;
+position: static;
+}
+#E1{ background-image: url(Back4.jpg);
+  width:100%; height: 100vh; opacity: 10px;
+}
+#E1 h1{color: black;
+text-align: center;
+display: block;
+position: static;
+}
+#E2{ background-image: url(set-sj-Mq3K1KNKZu4-unsplash\ \(1\).jpg);
+  width:100%; height:100vh;
+}
+
+#E2 h1{color: black;
+text-align: center;
+display: block;
+position: static;
+
+}
+#E3{ background-image: url(set-sj-Mq3K1KNKZu4-unsplash\ \(1\).jpg);
+  width:100%; height: 100vh;
+}
+#E3 h1{color: black;
+text-align: center;
+display: block;
+position: static;
+}
+#SD{background-image: url(jei-lee-OhWlmCiPhP4-unsplash\ \(1\).jpg);
+  width:100%; height: 100vh;
+
+}
+#SD h1{color: black;
+text-align: center;
+display: block;
+position: static;
+
+}
+#log{background-image: url(mykola-kolya-korzh-aqdDN9RndRo-unsplash.jpg);
+  width:100%; height: 100vh;
+
+}
+#log h1{ color: black;
+text-align: center;
+display: block;
+position: static;
+}
+.interaction{width: 90%; max-width: 300px;
+  margin: 10px; padding: 20px; background: rgb(95, 78, 66);
+  border-radius: 12px;
+  color: white;
+  text-align: left;
+}
+.like-section{display: inline-flex;
+gap: 10px; 
+}
+.like-section button{padding: 8px 20px;
+  border: none;
+  border-radius: 8px; cursor: pointer; font-size: 16px;
+}
+.comment-section textarea{ width: 100%;
+height: 40px;
+border-radius: 8px;
+padding: 10px; border: none; resize: none;
+}
